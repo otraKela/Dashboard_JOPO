@@ -11,13 +11,13 @@ function ContentWrapper () {
   
       // fetch products and categories from db 
         async function getProducts () { 
-            const response = await fetch("http://tienda-jopo-mb.onrender.com/api/products/");
+            const response = await fetch("https://tienda-jopo-mb.onrender.com/api/products/");
             return await response.json();
         };
   
       // fetch users from db 
         async function getUsers () {
-            const response = await fetch("http://tienda-jopo-mb.onrender.com/api/users/");
+            const response = await fetch("https://tienda-jopo-mb.onrender.com/api/users/");
             return await response.json();
         }
   
