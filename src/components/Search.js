@@ -9,7 +9,9 @@ function Search(){
 	const [page, setPage] = useState(1);
 	const [productCount, setProductCount] = useState(0);
 
-	const fetchUrl = 'http://localhost:3040/api/products/?page=';
+	// const fetchUrl = 'http://localhost:3040/api/products/?page=';
+
+	const fetchUrl = 'https://tienda-jopo-mb.onrender.com/api/products/?page=';
 
 	const searchProduct = e => {
 		setPage (1);
